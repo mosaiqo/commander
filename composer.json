@@ -1,6 +1,6 @@
 {
     "name": "mosaiqo/commander",
-    "description": "",
+    "description": "Simple commander for PHP commanding",
     "authors": [
         {
             "name": "Boudy de Geer",
