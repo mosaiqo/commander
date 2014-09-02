@@ -1,8 +1,8 @@
-<?php namespace Mosaiqo\Commanding;
+<?php namespace Mosaiqo\Commander;
 
 /**
  * Interface CommandHandler
- * @package Mosaiqo\Commanding
+ * @package Mosaiqo\Commander
  */
 interface CommandHandler
 {

@@ -2,6 +2,10 @@
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class CommanderServiceProvider
+ * @package Mosaiqo\Commander
+ */
 class CommanderServiceProvider extends ServiceProvider {
 
 	/**
@@ -33,11 +37,17 @@ class CommanderServiceProvider extends ServiceProvider {
 		return ['commander'];
 	}
 
+	/**
+	 *
+	 */
 	public function registerCommandTranslator()
 	{
 		$this->app->bind('Mosaiqo\Commander\CommandTranslator', 'Mosaiqo\Commander\BasicCommandTranslator');
 	}
 
+	/**
+	 *
+	 */
 	public function registerCommandBus()
 	{
 		$this->app->bindShared('Mosaiqo\Comander\CommandBus', function () {

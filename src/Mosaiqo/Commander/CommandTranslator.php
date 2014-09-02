@@ -1,8 +1,8 @@
-<?php namespace Mosaiqo\Commanding;
+<?php namespace Mosaiqo\Commander;
 
 /**
  * Interface CommandTranslator
- * @package Mosaiqo\Commanding
+ * @package Mosaiqo\Commander
  */
 interface CommandTranslator
 {
