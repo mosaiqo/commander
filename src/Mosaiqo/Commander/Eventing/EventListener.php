@@ -1,11 +1,11 @@
-<?php  namespace Mosaiqo\Eventing; 
+<?php namespace Mosaiqo\Commander\Eventing;
 
 use Illuminate\Log\Writer;
 use ReflectionClass;
 
 /**
  * Class EventListener
- * @package Mosaiqo\Eventing
+ * @package Mosaiqo\Commandor\Eventing
  */
 class EventListener
 {

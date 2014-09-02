@@ -1,8 +1,8 @@
-<?php namespace Mosaiqo\Commanding;
+<?php namespace Mosaiqo\Commander;
 
 /**
  * Interface CommandBus
- * @package Mosaiqo\Commanding
+ * @package Mosaiqo\Commander
  */
 interface CommandBus
 {

@@ -1,11 +1,11 @@
-<?php namespace Mosaiqo\Eventing;
+<?php namespace Mosaiqo\Commander\Eventing;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Log\Writer;
 
 /**
  * Class EventDispatcher
- * @package Mosaiqo\Eventing
+ * @package Mosaiqo\Commander\Eventing
  */
 class EventDispatcher {
 

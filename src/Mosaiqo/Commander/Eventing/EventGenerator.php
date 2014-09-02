@@ -1,8 +1,8 @@
-<?php namespace Mosaiqo\Eventing;
+<?php namespace Mosaiqo\Commander\Eventing;
 
 /**
  * Class EventGenerator
- * @package Mosaiqo\Eventing
+ * @package Mosaiqo\Commandor\Eventing
  */
 trait EventGenerator {
 

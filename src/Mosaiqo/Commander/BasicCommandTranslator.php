@@ -1,9 +1,17 @@
-<?php namespace Mosaiqo\Commanding;
-
+<?php namespace Mosaiqo\Commander;
 use Exception;
 
+/**
+ * Class BasicCommandTranslator
+ * @package Mosaiqo\Commander
+ */
 class BasicCommandTranslator implements CommandTranslator
 {
+	/**
+	 * @param $command
+	 * @return string
+	 * @throws \Exception
+	 */
 	public function toCommandHandler($command)
 	{
 		$command = new \ReflectionClass($command);

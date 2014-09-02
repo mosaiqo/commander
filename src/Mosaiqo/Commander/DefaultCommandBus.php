@@ -1,4 +1,4 @@
-<?php  namespace Mosaiqo\Commanding; 
+<?php namespace Mosaiqo\Commander;
 
 
 use Illuminate\Foundation\Application;
