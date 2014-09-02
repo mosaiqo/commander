@@ -50,8 +50,8 @@ class CommanderServiceProvider extends ServiceProvider {
 	 */
 	public function registerCommandBus()
 	{
-		$this->app->bindShared('Mosaiqo\Comander\CommandBus', function () {
-			$this->app->make('Mosaiqo\Commander\DefaultCommandBus');
+		$this->app->bindShared('Mosaiqo\Commander\CommandBus', function ($app) {
+			return $app->make('Mosaiqo\Commander\DefaultCommandBus');
 		});
 	}
 

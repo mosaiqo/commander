@@ -1,6 +1,6 @@
 <?php namespace Mosaiqo\Commander;
 
-
+use Mosaiqo\Commander\CommandBus;
 use Illuminate\Foundation\Application;
 
 class DefaultCommandBus implements CommandBus
